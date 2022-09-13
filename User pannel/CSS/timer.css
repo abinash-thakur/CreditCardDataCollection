@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.logocontainer{
+    background:#ECEDEE;
+}
+.logocontainer img{
+    height:10vh;
+    margin-left:10px;
+}
+.maincontainer{
+    height:90vh;
+    background-color:#ECEDEE;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.container{
+    background-color:white;
+    border-radius:10px;
+    height:29rem;
+    width:20rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.subcontainer{
+    margin-top:2rem;
+}
+.msge{
+    margin-top:3rem;
+    text-align: center;
+}
+#app{
+    display:flex;
+    justify-content: center;
+}
+  .base-timer {
+    position: relative;
+    width: 180px;
+    height: 180px;
+  }
+  
+  .base-timer__svg {
+    transform: scaleX(-1);
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+  
+  .base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+  
+  .base-timer__path-remaining.green {
+    color: #0ed32f;
+  }
+  
+  .base-timer__path-remaining.orange {
+    color:#0ed32f;
+  }
+  
+  .base-timer__path-remaining.red {
+    color: #dc3545;
+  }
+  
+  .base-timer__label {
+    color:#0d6efd;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+  }

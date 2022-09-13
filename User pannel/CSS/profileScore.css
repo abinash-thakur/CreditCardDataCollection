@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: #ECEDEE;
+}
+.logocontainer img{
+    height:10vh;
+    margin-left:10px;
+}
+.container{
+    height:90vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logocontainer{
+    background:#ECEDEE;
+}
+.mycontainer
+{
+    height:35rem;
+    width:20rem;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:12px;
+}
+.gauge
+{
+    width:20rem;
+    height:15rem;
+    display:flex;
+    justify-content:center;
+}
+.circular-progress
+{
+    position:relative;
+    height:14rem;
+    width:14rem;
+    border-radius:50%;
+    display:grid;
+    place-items: center;
+}
+.circular-progress::before{
+    content:"";
+    position:absolute;
+    height:84%;
+    width:84%;
+    background-color:#ffffff;
+    border-radius:50%;
+}
+.value-container
+{
+    position:relative;
+    font-family:'Poppins',sans-serif;
+    font-size:35px;
+    color:blue;
+    font-weight:700
+}
+.content
+{
+    height:15rem;
+}
+.mark{
+    background-color:white;
+    color:#037f03;
+    padding-top:20px;
+    font-size:1.5rem;
+    font-weight:700;
+    text-align: center;
+}
+.line{
+ font-size:18px;
+ padding:5px 15px;
+ color: #0000ff;
+ text-align:center;
+}
+.heading
+{
+    font-size:1.3rem;
+    text-align:center;
+    color:#000000;
+    font-weight:600;
+    padding:20px;
+}

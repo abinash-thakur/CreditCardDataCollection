@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+        background-color: #ECEDEE;
+    }
+    .mycontainer{
+        width:20rem;
+        height:85vh;
+        background-color:#ECEDEE;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-bottom: 30px;
+    }
+    .logocontainer img{
+        height:10vh;
+        margin-left:10px;
+    }
+    .main{
+        padding:2rem;
+        background:#ffff;
+        border-radius:10px;
+    }
+    
+    .logocontainer{
+        background:#ECEDEE;
+    }
+    .maincontainer{
+        background-color:#ECEDEE;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #data{
+        display: none;
+    }
+    #container{
+        background-color: #00175a;
+        color:#FFFFFF;
+        text-align: center;
+    }
+    #imgcontainer img{
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+    }
+    #datacontainer{
+        margin-top: 20px;
+    }
+    #btnconatiner{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }

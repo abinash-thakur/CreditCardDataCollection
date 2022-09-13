@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECEDEE;
+}
+
+.mymain{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEDEE;
+}
+.logoContainer{
+    background-color: #ECEDEE;
+}
+.mycontainer{
+    height: 89vh;
+    background-color: #ECEDEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer img{
+    height: 10vh;
+    margin-left: 10px;
+margin-bottom: 20px;
+}
+#alert{
+    display: none;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 400;
+}
+#main{
+    background-color: #FFFFFF;
+    width: 20rem;
+    height: 30rem;
+    padding:1rem;;
+    border-radius: 20px;
+}
+#welcome{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    margin-bottom:0;
+}
+.form-control{
+    height: 52px;
+    background-color: #ECEDEE;
+}
+.form-control:focus{
+    background-color: #ECEDEE;
+    border-color: #0069d9;
+}
+.form-label{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.btndesign{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.mybtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#btn{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.slide-right {
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+    max-width: 500px;
+    margin: 0.5rem 0;
+ }
+ 
+ .slide-right p {
+    text-align: center;
+    font-weight: 600;
+    animation: slide-right;
+    animation-duration: 6s;
+    font-size: 17px;
+ }
+ 
+ #container{
+    margin-top:20px;
+    background-color: #00175a;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+
+ @keyframes slide-right {
+     from {
+        margin-left: -500px;
+     }
+ 
+     to {
+        margin-left: 0%;
+     }
+  }

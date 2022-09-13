@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.mymain{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEDEE;
+}
+.logoContainer{
+    background-color: #ECEDEE;
+}
+.mycontainer{
+    height: 100vh;
+    background-color: #ECEDEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logoContainer img{
+    height: 10vh;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#alert{
+    display: none;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 400;
+}
+#main{
+    background-color: #FFFFFF;
+    width: 20rem;
+    height: 29rem;
+    padding:1rem;;
+    border-radius: 20px;
+}
+#heading{
+    color: #0069d9;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    margin-bottom:1.2rem;
+}
+.form-select{
+    height: 52px;
+    background-color: #ECEDEE;
+}
+.form-select:focus{
+    background-color: #ECEDEE;
+    border-color: #0069d9;
+}
+.form-control{
+    height: 52px;
+    background-color: #ECEDEE;
+}
+.form-control:focus{
+    background-color: #ECEDEE;
+}
+.form-label{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.btndesign{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.mybtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#btn{
+    width: 39%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#container{
+    background-color: #00175a;
+    color:#FFFFFF;
+    text-align: center;
+}

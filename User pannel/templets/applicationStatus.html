@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Application Status</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="applicationStatus.css">
+</head>
+
+<body>
+  <div class="logocontainer">
+    <img src="logo.png" alt="">
+  </div>
+  <div class="maincontainer">
+    <div class="container">
+      <div class="main">
+        <p class="heading">Application Status</p>
+        <div class="checksize">
+          <input type="checkbox" id="check1" class="check" checked autocomplete="off">
+          Application Submitted
+        </div>
+        <div class="myprogress">
+          <div id="myBar1" class="w3-container" style="background-color:#000fff;height:0;width:7px;"></div>
+        </div>
+        <div class="checksize">
+          <input type="checkbox" id="check2" class="check" autocomplete="on">
+          Under Review
+        </div>
+        <div class="myprogress">
+          <div id="myBar2" class="w3-container" style="background-color:#000fff;height:0;width:7px;"></div>
+        </div>
+        <div class="checksize">
+          <input type="checkbox" id="check2" class="check" autocomplete="on">
+          Video KYC
+        </div>
+        <div class="message1" style="margin-top:10px;font-weight:500"></div>
+        <div class="message2" style="font-weight:500"></div> 
+        <div class="btnn">
+          <button type="button" id="btn" class="btn btn-primary btn-sm d-none disabled">Proceed KYC</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="applicationStatus.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

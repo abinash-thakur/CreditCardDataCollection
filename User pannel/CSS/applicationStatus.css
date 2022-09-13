@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#ECEDEE;
+}
+.logocontainer{
+    background:#ECEDEE;
+}
+.logocontainer img{
+    height:10vh;
+    margin-left:10px;
+}
+.maincontainer{
+    height:87vh;
+    display:flex;
+    justify-content:center;
+    background-color:#ECEDEE;
+}
+.main{
+    background-color: #FFFFFF;
+    width: 20rem;
+    height: 37rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.heading{
+    font-family:'Roboto',sans-serif;
+    font-size:1.5rem;
+    color:#000fff;
+    font-weight:600;
+}
+.check
+{
+    margin-left:8px;
+}
+.myprogress{
+    background-color:lightgrey;
+    height:14%;
+    width:7px;
+    margin-left:10px;
+    display:flex;
+    align-items:flex-start;
+}
+.btnn{
+    display:flex;
+    justify-content: center;
+}
